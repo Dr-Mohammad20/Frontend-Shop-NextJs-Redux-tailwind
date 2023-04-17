@@ -87,22 +87,22 @@ const Footer = () => {
           </Link> */}
           <div
             onClick={() => window.open('https://facebook.com', '_blank')}
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.7] cursor-pointer">
             <FaFacebookF size={20} />
           </div>
           <div
             onClick={() => window.open('https://twitter.com', '_blank')}
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.7] cursor-pointer">
             <FaTwitter size={20} />
           </div>
           <div
             onClick={() => window.open('https://youtube.com', '_blank')}
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.7] cursor-pointer">
             <FaYoutube size={20} />
           </div>
           <div
             onClick={() => window.open('https://instagram.com', '_blank')}
-            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.7] cursor-pointer">
             <FaInstagram size={20} />
           </div>
         </div>
