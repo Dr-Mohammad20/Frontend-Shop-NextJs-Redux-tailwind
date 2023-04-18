@@ -6,7 +6,7 @@ import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
 
 const Banner = () => {
   return (
-    <div className="relative text-white text-[20] w-full max-w-[1360px] mx-auto">
+    <div className="relative text-white text-[20] w-full max-w-[1360px] mx-auto animate-fade">
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
